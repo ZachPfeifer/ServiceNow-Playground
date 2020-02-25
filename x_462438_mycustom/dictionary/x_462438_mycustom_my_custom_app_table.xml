@@ -3,5 +3,6 @@
         <element label=" My Integer Field" max_length="40" name="my_integer_field" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="My String Field" max_length="40" name="my_string_field" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="125" name="u_short_description" type="string"/>
     </element>
 </database>
